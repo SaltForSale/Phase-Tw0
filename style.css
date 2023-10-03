@@ -1,6 +1,36 @@
-body{
-    background-color: black;
+* {
+    --bs-gutter-x: 0 !important;
 }
-.container-fluid{
-    padding:0px;
+
+body {
+    background-color: #98BFD1;
+    background-image: url("images\title_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.container-fluid {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    padding-left: 20px;
+    align-content: right;
+    background-color: white;
+}
+
+.nav-link {
+    color: rgb(100, 100, 100) !important;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 100px
+}
+
+.title-spacing {
+    margin-top: 250px;
 }
