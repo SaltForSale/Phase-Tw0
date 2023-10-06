@@ -2,18 +2,17 @@
     --bs-gutter-x: 0 !important;
 }
 
-body {
-    background-color: #98BFD1;
-    background-image: url("images\title_bg.jpg");
-    background-repeat: no-repeat;
+.title-bg {
+    background-color: #98bfd1;
+    background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     background-attachment: fixed;
-    background-position: 50% 0;
-    background-size: cover;
 }
 
 .container-fluid {
     margin: 0%;
     padding: 0%;
+    background-color:#98bfd1;
 }
 
 .navbar {
@@ -22,15 +21,54 @@ body {
     background-color: white;
 }
 
+.navbar-spacing-fix {
+    padding: 21px;
+}
+
 .nav-link {
     color: rgb(100, 100, 100) !important;
     font-weight: bold;
 }
 
 .title {
-    font-size: 100px
+    font-size: 150px;
+    color: white;
+    -webkit-text-stroke: 2px black;
 }
 
 .title-spacing {
-    margin-top: 250px;
+    margin-top: 175px;
+}
+
+.subtitle {
+    color: #512E1B;
+    font-size: 50px
+}
+
+.css-button-fully-rounded--black {
+    font-size: 25px;
+    min-width: 130px;
+    height: 75px;
+    color: #fff;
+    padding: 0px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid #512E1B;
+    background: #512E1B;
+    margin-bottom: 130px;
+
+}
+
+.css-button-fully-rounded--black:hover {
+    background: #fff;
+    color: #512E1B
+}
+.section-two{
+    background-color: #512E1B;
+    background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
 }
