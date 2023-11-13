@@ -91,3 +91,12 @@
 .barcode-img{
     width:50%;
 }
+.card{
+    margin-top:100px;
+    border-width: 5px;
+    border-color:white;
+}
+.list-group-item{
+    color:white;
+    background-color: #512E1B;
+}
