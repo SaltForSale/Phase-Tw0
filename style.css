@@ -5,7 +5,6 @@
 .title-bg {
     background-color: #98bfd1;
     background-image: url("images/paper_texture.png");
-    background-attachment: fixed;
 }
 
 .container-fluid {
@@ -99,4 +98,13 @@
 .list-group-item{
     color:white;
     background-color: #512E1B;
+}
+.bg-white{
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.team-border{
+    border-color: #512E1B;
+    border-width: 10px;
 }
