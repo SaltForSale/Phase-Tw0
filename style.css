@@ -108,3 +108,9 @@
     border-color: #512E1B;
     border-width: 10px;
 }
+
+
+.border-black {
+    --bs-border-opacity: 1;
+    border-color: #512E1B !important;
+}
