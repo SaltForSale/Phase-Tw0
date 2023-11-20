@@ -114,3 +114,13 @@
     --bs-border-opacity: 1;
     border-color: #512E1B !important;
 }
+
+.team-name {
+    color:#512E1B;
+    padding-top: 10px;
+}
+
+.team-desc {
+    color:#512E1B;
+    font-size:13px;
+}
