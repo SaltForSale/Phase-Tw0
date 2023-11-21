@@ -66,7 +66,7 @@
 
 .css-button-fully-rounded--black:hover {
     background: #fff;
-    color: #512E1B
+    color: #512E1B;
 }
 
 .section-two {
@@ -89,6 +89,7 @@
 }
 .barcode-img{
     width:50%;
+    margin-left: 100px;
 }
 .card{
     margin-top:100px;
@@ -101,8 +102,7 @@
 }
 .bg-white{
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-image: url("images/whiteTexture.png");
 }
 .team-border{
     border-color: #512E1B;
@@ -123,4 +123,56 @@
 .team-desc {
     color:#512E1B;
     font-size:13px;
+}
+.involve-icons {
+    width: 100px;
+}
+.sect2-spacing1{
+    margin-top: 200px;
+}
+.sect2-spacing2{
+    margin-top: 100px;
+}
+.mission-spacing1{
+    margin-top:150px;
+    margin-left:100px;
+}
+.mission-spacing2{
+    padding-top:100px;
+}
+.involve-spacing1{
+    margin-top: 75px;
+}
+.involve-spacing2{
+    margin-top: 150px;
+}
+.involve-spacing3{
+    margin-top: 225px;
+}
+.involve-desc{
+    color: #512E1B;
+    font-weight: bold;
+}
+.footer-img{
+    width:300px;
+}
+.py-5{
+    padding-top: 150px !important;
+    padding-bottom:150px !important;
+}
+.contact-spacing{
+    padding-top: 85px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-name{
+    color: #98bfd1;
+    -webkit-text-stroke: 2px white;
+}
+.unlink{
+    text-decoration: none;
+    color:white;
+}
+.unlink:hover{
+    color: #512E1B;
 }
