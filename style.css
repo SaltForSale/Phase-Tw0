@@ -32,18 +32,30 @@
     font-size: 150px;
     font-weight: bold;
     color: white;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 2px #512E1B;
+        -webkit-font-smoothing: subpixel-antialiased; 
     line-height: 0.7;
     font-family: 'Poppins', sans-serif !important;
 }
-.title-retro {
-    font-family: 'Pixelify Sans', sans-serif;
-    font-size: 150px;
+.title-script {
+    font-size: 250px;
     font-weight: bold;
     color: white;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 1px #512E1B;
+        -webkit-font-smoothing: subpixel-antialiased; 
     line-height: 0.7;
-    font-family: 'Press+Start+2P', sans-serif !important;
+    font-family: 'Imperial Script', cursive;
+}
+
+.title-retro {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px #512E1B;
+        -webkit-font-smoothing: subpixel-antialiased; 
+    line-height: 0.7;
+    font-family: 'Press Start 2P', sans-serif;
+    padding-top: 50px;
 }
 
 .title-spacing {
