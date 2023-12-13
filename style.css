@@ -61,12 +61,17 @@
 
 .subtitle-retro {
     color: #512E1B;
-    font-size: 27px;
+    font-size: 3vh;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.subtitle-retro2 {
+    color: #512E1B;
+    font-size: 4vh;
     font-family: 'Press Start 2P', sans-serif;
 }
 .subtitle {
     color: #512E1B;
-    font-size: 50px;
+    font-size: 5vh;
 }
 .subtitle-script{
     font-size: 150px;
@@ -75,6 +80,15 @@
     -webkit-text-stroke: 1px #512E1B;
     -webkit-font-smoothing: subpixel-antialiased;
     line-height: 0.7;
+    font-family: 'Imperial Script', cursive;
+}
+.subtitle-script2{
+    font-size: 100px;
+    font-weight: bold;
+    color: #745d42;
+    -webkit-text-stroke:white;
+    -webkit-font-smoothing: subpixel-antialiased;
+    line-height: 0.1;
     font-family: 'Imperial Script', cursive;
 }
 
@@ -173,7 +187,10 @@
 
 .team-name {
     color: #512E1B;
+    font-size:30px;
     padding-top: 10px;
+    font-family: 'Imperial Script', cursive;
+
 }
 
 .team-desc {
@@ -258,4 +275,7 @@
 
 .navbar {
     background-color: white !important;
+}
+.border-brown{
+    border-color: #512E1B !important;
 }
