@@ -64,17 +64,33 @@
     font-size: 1.5vw;
     font-family: 'Press Start 2P', sans-serif;
 }
+
 .subtitle-retro2 {
     color: #512E1B;
     font-size: 1.5vw;
     font-family: 'Press Start 2P', sans-serif;
 }
+
 .subtitle {
     color: #512E1B;
     font-size: 5vh;
     font-family: 'Poppins', sans-serif !important;
 }
-.subtitle-script{
+.subtitle {
+    color: #512E1B;
+    font-size: 5vh;
+}
+.subtitle2 {
+    color: white;
+    font-size: 5vh;
+    -webkit-text-stroke: 1px #512E1B;
+    font-family: 'Poppins', sans-serif !important;
+}
+.subtitle3 {
+    color: #512E1B;
+    font-size: 5vh;
+}
+.subtitle-script {
     font-size: 7vw;
     font-weight: bold;
     color: white;
@@ -83,11 +99,12 @@
     line-height: 0.7;
     font-family: 'Imperial Script', cursive;
 }
-.subtitle-script2{
+
+.subtitle-script2 {
     font-size: 100px;
     font-weight: bold;
     color: #745d42;
-    -webkit-text-stroke:white;
+    -webkit-text-stroke: white;
     -webkit-font-smoothing: subpixel-antialiased;
     line-height: 0.1;
     font-family: 'Imperial Script', cursive;
@@ -134,6 +151,7 @@
     color: white;
     font-family: 'Poppins', sans-serif !important;
 }
+
 .subheader-script {
     line-height: 0.8;
     font-size: 100px;
@@ -141,6 +159,7 @@
     color: white;
     font-family: 'Imperial Script', cursive;
 }
+
 .subheader-retro {
     line-height: 0.8;
     font-size: 75px;
@@ -188,7 +207,7 @@
 
 .team-name {
     color: #512E1B;
-    font-size:30px;
+    font-size: 30px;
     padding-top: 10px;
     font-family: 'Imperial Script', cursive;
 
@@ -266,6 +285,10 @@
 .unlink:hover {
     color: #512E1B;
 }
+.unlink2 {
+    text-decoration: none;
+    color: #512E1B;
+}
 
 .nav-space {
     padding-top: 58px;
@@ -278,12 +301,18 @@
 .navbar {
     background-color: white !important;
 }
-.border-brown{
+
+.border-brown {
     border-color: #512E1B !important;
 }
-.link{
-    color:white;
-}
-.link:active{
+
+.link {
     color: white;
+}
+
+.link:active {
+    color: white;
+}
+.fs-5 {
+    font-weight: normal;
 }
