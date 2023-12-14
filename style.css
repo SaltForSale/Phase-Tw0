@@ -76,21 +76,7 @@
     font-size: 5vh;
     font-family: 'Poppins', sans-serif !important;
 }
-.subtitle {
-    color: #512E1B;
-    font-size: 5vh;
-}
-.subtitle2 {
-    color: white;
-    font-size: 5vh;
-    -webkit-text-stroke: 1px #512E1B;
-    font-family: 'Poppins', sans-serif !important;
-}
-.subtitle3 {
-    color: #512E1B;
-    font-size: 5vh;
-}
-.subtitle-script {
+.subtitle-script{
     font-size: 7vw;
     font-weight: bold;
     color: white;
