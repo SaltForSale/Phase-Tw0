@@ -78,6 +78,7 @@
   .subtitle {
     color: #512E1B;
     font-size: 5vh;
+    line-height: 0.8;
     font-family: 'Poppins', sans-serif !important;
   }
   
@@ -110,7 +111,7 @@
     color: #745d42;
     -webkit-text-stroke: white;
     -webkit-font-smoothing: subpixel-antialiased;
-    line-height: 0.1;
+    line-height: 0.5;
     font-family: 'Imperial Script', cursive;
   }
   
@@ -133,7 +134,7 @@
     border-radius: 50px;
     border: 2px solid #512E1B;
     background: #512E1B;
-    margin-bottom: 175px;
+    margin-bottom: 200px;
   
   }
   
@@ -175,11 +176,6 @@
   .img1 {
     height: 250px;
     width: 400px;
-  }
-  
-  .barcode-img {
-    width: 50%;
-    margin-left: 100px;
   }
   
   .card {
@@ -255,7 +251,13 @@
     margin-top: 225px;
   }
   
-  .involve-desc {
+  .involve-desc1 {
+    color: #512E1B;
+    font-weight: bold;
+    font-size: 2vh;
+  }
+
+  .involve-desc2 {
     color: #512E1B;
     font-weight: bold;
   }
