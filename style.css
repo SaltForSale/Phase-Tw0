@@ -156,6 +156,26 @@
     color: white;
     font-family: 'Poppins', sans-serif !important;
   }
+  .subheader4 {
+    line-height: 0.8;
+    font-size: 11vh;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .subheader2 {
+    line-height: 0.8;
+    font-size: 11vh;
+    font-weight: bold;
+    color: white;
+  }
+  .subheader3 {
+    line-height: 0.8;
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+  }
   
   .subheader-script {
     line-height: 0.8;
@@ -282,6 +302,11 @@
     font-family: 'Imperial Script', cursive;
   
   }
+  .footer-name2 {
+    color: #98bfd1;
+    font-family: 'Imperial Script', cursive;
+  
+  }
   
   .unlink {
     text-decoration: none;
@@ -325,7 +350,7 @@
     font-weight: normal;
   }
   .h1 {
-    font-size: 2vw;
+    font-size: 2vh;
   }
   .responsive-iframe-container {
     position: relative;
